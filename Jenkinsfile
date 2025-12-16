@@ -6,8 +6,7 @@ pipeline {
             steps {
                 // Explicitly specify the branch and credentials
                 git branch: 'main',
-                    url: 'https://github.com/Naveenreddy-226/myapp',
-                    credentialsId: 'github-pat'
+                    url: 'https://github.com/Naveenreddy-226/myapp'
             }
         }
 
